@@ -1,0 +1,18 @@
+{
+  "DESIGN_NAME": "snn_top_v3",
+  "VERILOG_FILES": "dir::src/snn_top_v3.v",
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 10,
+  "pdk::sky130A": {
+    "FP_CORE_UTIL": 45,
+    "PL_TARGET_DENSITY_PCT": "expr::($FP_CORE_UTIL + 10.0)",
+    "MAX_FANOUT_CONSTRAINT": 6
+  },
+  "scl::sky130_fd_sc_hd": {
+    "CLOCK_PERIOD": 10
+  },
+  "SYNTH_CLOCK_GATING": true,
+  "ERROR_ON_MAGIC_DRC": false,
+  "ERROR_ON_LVS_ERROR": false,
+  "ERROR_ON_TIMING_VIOLATIONS": false
+}
