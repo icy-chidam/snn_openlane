@@ -75,7 +75,7 @@ approximate-snn-sky130/
 │   └── timing_corners.md     # Setup/hold slack across all 9 PVT corners
 │
 ├── docs/
-│   ├── blockdiag.png         # System block diagram 
+│   └──blockdiag.png         # System block diagram 
 │
 ├── LICENSE                   # MIT License
 └── README.md                 
