@@ -69,11 +69,7 @@ approximate-snn-sky130/
 ├── src/
 │   ├── snn_top_v3.v          # Top-level RTL — all 6 sub-modules in one file
 │   └── tb_snn_top_v3.v       # 10-test self-checking testbench
-│
-├── openlane/
-│   ├── config.json           # OpenLane 2 flow configuration
-│   └── Constrains.sdc        # Timing constraints (SDC format)
-│
+|
 ├── reports/
 │   ├── metrics_summary.md    # Human-readable post-layout metrics
 │   └── timing_corners.md     # Setup/hold slack across all 9 PVT corners
