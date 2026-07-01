@@ -254,28 +254,6 @@ All key parameters are exposed as Verilog `parameter` declarations and can be ch
 
 ---
 
-## Paper
-
-A pre-print of the accompanying IEEE conference paper is included at `docs/snn_paper.pdf`.
-
-**Title:** *A Runtime-Configurable Approximate Spiking Neural Network Accelerator with Spike-Density-Driven MAC Switching in Open-Source 130 nm CMOS*
-
-**Author:** N. Chidambaresh, Dept. of Electronics & Communication Engineering, SRM Institute of Science & Technology, Chennai, India.
-
-If you use this work in your research, please cite using the metadata in [`CITATION.cff`](CITATION.cff).
-
----
-
-## Contributing
-
-This is currently a private research repository. If you have been granted access and wish to contribute:
-
-1. Create a feature branch: `git checkout -b feature/your-improvement`
-2. Commit with a descriptive message following [Conventional Commits](https://www.conventionalcommits.org/)
-3. Open a pull request with a clear description of the change and its effect on timing/power metrics
-4. All PRs must include updated simulation results confirming no regression
-
----
 
 ## License
 
