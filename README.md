@@ -71,18 +71,14 @@ approximate-snn-sky130/
 │   └── tb_snn_top_v3.v       # 10-test self-checking testbench
 |
 ├── reports/
-│   ├── metrics_summary.md    # Human-readable post-layout metrics
+│   ├── metrics_summary.md   
 │   └── timing_corners.md     # Setup/hold slack across all 9 PVT corners
 │
 ├── docs/
-│   ├── blockdiag.pdf         # System block diagram (vector)
-│   ├── blockdiag.png         # System block diagram (raster, 300 dpi)
-│   └── snn_paper.pdf         # IEEE conference paper (pre-print)
+│   ├── blockdiag.png         # System block diagram 
 │
 ├── LICENSE                   # MIT License
-├── CITATION.cff              # Citation metadata
-├── .gitignore                # Ignores large run artefacts
-└── README.md                 # This file
+└── README.md                 
 ```
 
 ---
